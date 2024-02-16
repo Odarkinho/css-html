@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Minecraft</h1>  
+    <hr>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos nihil minima laboriosam consectetur omnis voluptas incidunt! Unde sint quaerat, modi libero amet dolor quis ipsum temporibus odio, omnis nam itaque!*1</p>
+
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facilis vitae illo quasi, omnis porro perferendis aliquid. Ratione blanditiis illo qui, eum nisi facere repellendus et animi facilis enim quae!*1</p>
+    <hr>
+    <img src="images/download.jpg">
+    <img src="images/02.jpg" >
+    <hr>
+    <video src="files/minetrailler.mp4" controls></video>
+
+
+</body>
+</html>
