@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleRelogio.css">
+</head>
+
+<body>
+    <img src="images/bahea-removebg-preview.png" alt="bahea">
+    
+    <div class="central">
+        
+        
+        <div>
+            <span id="horas">00</span>
+            <p>horas</p>
+        </div>
+        <div>
+            <span id="minutos">00</span>
+            <p>minutos</p>
+        </div>
+        <div>
+            <span id="segundos">00</span>
+            <p>segundos</p>
+        </div>
+        
+        
+    </div>
+    <script src="js/relogio.js"></script>
+</body>
+<img src="images/bamor-removebg-preview.png" alt="bamor">
+</html>
+
+//JAVA
+//dom
+
+const horas = document.querySelector('#horas')
+const minutos = document.querySelector('#minutos')
+const segundos = document.querySelector('#segundos')
+
+//eventos
+
+setInterval(relogio,1000)
+
+//função
+
+function relogio(){
+
+    let dia = new Date()
+    let h = dia.getHours()
+    let m = dia.getMinutes()
+    let s =dia.getSeconds()
+
+    horas.textContent = h
+    minutos.textContent = m
+    segundos.textContent = s
+
+}
+
+\\ css 
+body{
+    background: linear-gradient(red,white,blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 450px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 25px yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.central div{
+    background: linear-gradient(blue,white,red);
+    color:white;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.central div span{
+    font-size: 70px;
+}
+.central div p{
+    font-size: 22px;
+    
+}
