@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    background: url("/image/cenario\ bdm.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#pikaku{
+    position: absolute;
+    top: 680px;
+    left: 0px;
+    animation: corridap 4s infinite;
+
+}
+#sonic{
+    position: absolute;
+    top: 650px;
+    right: 1700px;
+    animation: corridas 2s infinite;
+
+}
+#crash{
+    position: absolute;
+    top: 620px;
+    right: 800px;
+    animation: corridak 4s infinite;
+}
+#nuvem{
+    position: absolute;
+    top: 0px;
+    right: 80%;
+    animation: corridan 20s infinite;
+}
+
+@keyframes corridap{
+ 0%{
+        top: 680px;
+        left: 0%;
+    } 
+100%{
+        top: 680px;
+        left: 110%;
+    }
+
+
+}
+
+@keyframes corridas{
+    0%{
+        top: 650px;
+        right: 80px;
+       } 
+   100%{
+       top: 650px;
+    right: 1900px;
+       }
+   
+   
+   }
+   @keyframes corridak{
+    0%{
+        top: 620px;
+        right: 800px;
+       } 
+   100%{
+    top: 620px;
+    right: 1900px;
+       }
+   
+   
+   }
+   @keyframes corridan{
+    0%{
+        top: 0px;
+        right: 80px;
+       } 
+   100%{
+    top: 0px;
+    right: 100%;;
+       }
+   
+   
+   }
